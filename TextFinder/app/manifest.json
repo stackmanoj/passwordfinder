@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Text-Finder",
+  "description": "Text Finder",
+  "version": "1.0",
+  "permissions": [
+  "tabs",
+	 "cookies",
+	 "http://*/*", "https://*/*",
+    "http://www.practicefusion.com/"
+  ],
+   "background": { "scripts": ["background.js"],"persistent": false }
+}
